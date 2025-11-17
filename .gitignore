@@ -1,3 +1,42 @@
-node_modules
-/config.env
-/.env
+# Node modules
+node_modules/
+
+# Environment files
+.env
+config.env
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+
+# Build output
+dist/
+build/
+
+# Cache
+.cache/
+.temp/
+.pnp/
+.pnp.js
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite/
+
+# IDE files
+.vscode/
+.idea/
+
+# # Optional: uploads (if storing locally)
+# uploads/
+# public/uploads/
